@@ -47,7 +47,7 @@ Every block memorize the previous block hash, it points to the previous block. S
 
 The structure of block chain:
 
-<img src="/home/george/Documents/Project/BCEHR/asset/blockchain.drawio.svg" alt="blockchainstructure" style="zoom:150%;" />
+<img src="./asset/blockchain.drawio.svg" alt="blockchainstructure" style="zoom:150%;" />
 
 ### 2.1  Block Structure
 
