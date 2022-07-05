@@ -21,17 +21,19 @@ Block chain technology is pretty mature and robust nowadays,we only have to make
 The System includes applications below:
 
 1. Consortium block chains (行業區塊鏈)
-
 2. Researcher Interface
 
      -  Data cleaning and records traversing.
      -  Verified portal for paper data reproducing.
      -  Built-in Analysis Algorithm
-
 3. Insurers Interface
 
    - Built-in Pricing Model or Customized Model
    - Group Risk Monitoring
+
+![overview](./asset/consortiumbc.drawio.svg)
+
+
 
 Multiple organizations share the responsibilities of maintaining the block chain. The chain is not visible to any other organizations than the chain members. It provides API to Researcher and Insurers to implement sophisticated and data-driven models without any possibility of leaking individual information but still holding the capacity of enormous data, the encryption algorithm and consensus mechanism ensures the authenticity of the records and data safety.
 
@@ -39,7 +41,7 @@ The head of every block contains the information fields of every block and the c
 
 
 
-##  2. Consortium Block Chain
+##  2. Consortium Block Chains
 
 To the contrary of the public property of traditional block chain, health records need more exclusive membership, that means the system only remain  accessible to a certain group of organizations such as Hospital Unions, Hospital Authority and Universities. The chain remains invisible to other organizations.
 
@@ -58,7 +60,7 @@ For every single block, it has head and meta data, the meta data stores of all t
 - Time stamp: records the birth time of this block
 - Merkle root: the hash value of all the text record of this block
 
-
+## 2.2 Cryptograph 
 
 
 
