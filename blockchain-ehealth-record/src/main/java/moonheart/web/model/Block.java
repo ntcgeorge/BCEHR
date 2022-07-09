@@ -36,7 +36,7 @@ public class Block implements Serializable {
     /**
      * the health record of single visit of single patient
      */
-    private List<Records> records;
+    private List<Record> record;
 
     public int getIndex() {
         return index;
@@ -54,20 +54,12 @@ public class Block implements Serializable {
         this.timestamp = timeStamp;
     }
 
-    public List<Records> getReocrds() {
-        return records;
+    public List<Record> getReocrd() {
+        return record;
     }
 
-    public void setTimestamp(List<Records> records) {
-        this.records = records;
-    }
-
-    public int getNonce() {
-        return nonce;
-    }
-
-    public void setNonce(int nonce) {
-        this.nonce = nonce;
+    public void setRecord(List<Record> record) {
+        this.record = record;
     }
 
     public String getPreviousHash() {

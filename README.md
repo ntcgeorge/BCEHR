@@ -6,7 +6,7 @@ Tools Pack: Java, Maven, Spring Boot
 
 Created on: Jul 1 2022
 
-
+![](https://pharmaphorum.com/wp-content/uploads/2021/09/How-blockchain-can-revolutionise-medical-records-and-save-lives-605x340.jpg)
 
 ## 1. Project Introduction 
 
@@ -31,17 +31,19 @@ The System includes applications below:
    - Built-in Pricing Model or Customized Model
    - Group Risk Monitoring
 
-![overview](./asset/consortiumbc.drawio.svg)
+![overview](./asset/output/consortiumbc.drawio.svg)
 
 
 
 Multiple organizations share the responsibilities of maintaining the block chain. The chain is not visible to any other organizations than the chain members. It provides API to Researcher and Insurers to implement sophisticated and data-driven models without any possibility of leaking individual information but still holding the capacity of enormous data, the encryption algorithm and consensus mechanism ensures the authenticity of the records and data safety.
 
-The head of every block contains the information fields of every block and the corresponding block hash which is generated based on the block head, the head also remember the previous block.
+For the technical issues, we mainly focus on the block structure, communication between members in the consortium block chain,  consensus mechanism and application interface.
+
+![porjectStructure](./asset/output/blockchain.svg)
 
 
 
-##  2. Consortium Block Chains
+##  2. Data Layer
 
 To the contrary of the public property of traditional block chain, health records need more exclusive membership, that means the system only remain  accessible to a certain group of organizations such as Hospital Unions, Hospital Authority and Universities. The chain remains invisible to other organizations.
 
@@ -49,7 +51,9 @@ Every block memorize the previous block hash, it points to the previous block. S
 
 The structure of block chain:
 
-<img src="./asset/blockchain.drawio.svg" alt="blockchainstructure" style="zoom:150%;" />
+<img src="./asset/output/block.svg" alt="blockchainstructure" style="zoom:250%;" />
+
+
 
 ### 2.1  Block Structure
 
@@ -60,7 +64,47 @@ For every single block, it has head and meta data, the meta data stores of all t
 - Time stamp: records the birth time of this block
 - Merkle root: the hash value of all the text record of this block
 
-## 2.2 Cryptograph 
+![singleblock](./asset/output/singleblock.svg)
+
+### 2.2 Cryptography
+
+
+
+## 3. Network
+
+###  3.1 Peer-to-peer Network
+
+
+
+###  3.2 Broadcast Mechanism
+
+
+
+###  3.3 Verification Mechanism
+
+
+
+## 4. Consensus Mechanism
+
+
+
+## 5. Application Interface
+
+### 5.1 Researcher
+
+#### 5.1.1 Peer-review Interface
+
+#### 5.1.2 Data pipeline
+
+#### 5.1.3 Built-in Model
+
+### 5.2 Insurers
+
+###
+
+
+
+
 
 
 

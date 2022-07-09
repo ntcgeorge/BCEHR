@@ -2,7 +2,7 @@ package moonheart.web.model;
 
 import java.io.Serializable;
 
-public class Records implements Serializable{
+public class Record implements Serializable{
 
     /**
      * business data structure
